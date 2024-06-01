@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.header-image {
+    width: 100%;
+    height: auto;
+}
+
+.services {
+    display:flex;
+    justify-content: center;
+    gap: 30px;
+    background-color: #c2b7b7;
+    padding: 20px;
+
+}
+
+.service {
+    display:flex;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.content-item {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 20px 0;
+}
+
+.number {
+    font-size: 2rem;
+    color: #ffa500;
+    margin-right: 20px;
+}
+
+.text {
+    flex: 1;
+    margin-right: 4fr;
+}
+
+.colab{
+    flex: 1;
+    margin-left: 4fr;
+    padding: 10px;
+    background-color: #c0acac;
+}
+.quote-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 140px;
+    height: 200px;
+}
+
+.quote {
+    text-align: left;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.quote blockquote {
+    font-size: 1.5rem;
+    color: black;
+    font: bold;
+    margin: 0 0 10px;
+}
+
+.quote img {
+    width: 50px;
+    height: 50px;
+}
